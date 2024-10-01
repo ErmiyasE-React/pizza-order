@@ -1,0 +1,93 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Container for the login card and the image */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Image container styling */
+.image-container {
+  flex: 1; /* Takes up 50% of the width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9922;
+  height:100%;
+}
+
+.image-container img {
+  width: 450px; /* Small pizza image */
+  height: 90%;
+  
+}
+.small-pizza-image{
+  width:90px;
+  height:60px;
+}
+.small-image-container{
+  display:flex;
+  flex-direction:row;
+}
+/* Login card styling */
+.login-card {
+  flex: 2; /* Takes up 50% of the width */
+  padding: 60px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  height:100%;
+}
+
+.card-title {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+/* Button styling */
+button[type="submit"] {
+  background-color: #ff9922;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #e68100;
+}
+
+button[type="reset"] {
+  background-color: #ccc;
+}

@@ -1,0 +1,10 @@
+/* Customize pagination dots */
+.swiper-pagination-bullet {
+    background-color: #bbb;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #007aff;
+  }
+  
